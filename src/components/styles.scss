@@ -1,0 +1,66 @@
+.DisplayBlockWrapper {
+    padding-bottom: 16px; 
+    border-bottom: 3px dotted black;
+}
+.titleWrapper {
+    margin: 16px;
+}
+
+.searhBox {
+    display: flex;
+    max-width: 300px;
+    margin: auto;
+    margin-bottom: 16px;
+    button {
+        margin-left: 8px;
+    }
+}
+.error {
+    color: red;
+}
+.editButton {
+    background-color: lightgreen;
+    margin-left: 8px; 
+    &:hover {
+        background-color: rgb(143, 173, 95);
+    }
+}
+.deleteButton {
+    background-color: red;
+    &:hover {
+        background-color: rgb(204, 62, 62);
+    }
+}
+.forcastWrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(225px, 1fr) );
+    column-gap: 16px;
+    row-gap: 16px;
+    padding: 16px;
+}
+.displayWrapper {
+    border: 1px solid rgb(165, 165, 165);
+    padding: 16px;
+    display: flex;
+    .displayInfo {
+        border-right: 1px dotted rgb(165, 165, 165);
+        padding-right: 8px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        min-width: 105px;
+        max-width: 125px;
+        width: 100%;
+    }
+}
+
+.inputWrapper {
+    display: flex;
+    flex-direction: column;
+}
+.mainSearchWrapper {
+    padding-bottom: 16px; 
+    border-bottom: 3px dotted black;
+    max-width: 300px;
+    margin: auto;
+}
